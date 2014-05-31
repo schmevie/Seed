@@ -22,3 +22,8 @@ Branching
 6. Create a pull request by navigating to the branch on GitHub and clicking "Compare & pull request"
 7. Wait for comments. Revise as necessary, `git push`ing the branch so that your updates are visible.
 8. Once someone says it's good, click "Merge pull request"
+
+
+Work tracking
+--------------
+Check out the public Trello board @ https://trello.com/b/v1Nm9NSs/berkeley-hackathon
