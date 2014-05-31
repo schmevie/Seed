@@ -6,8 +6,8 @@ Seed Repository
 
 Setup
 -----
-1. Make a development directory. mkdir 'whateveryouwanttonameit'
-2. cd into your development directory 
+1. Make a development directory `mkdir 'whateveryouwanttonameit'`
+2. `cd` into your development directory 
 3. Clone the repo: `git clone https://github.com/APLmath/NinjaNarwhals.git`
 
 Branching
