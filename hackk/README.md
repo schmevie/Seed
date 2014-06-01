@@ -20,6 +20,7 @@ If you would like to download the code and try it for yourself:
 
 ### Getting all products with remaining inventory
 curl 'http://localhost:8080/api/v1/products'
+```
 [{
 "url": "/api/v1/products/538b8b562b0cd04a36b46157",
 "name": "Orange",
@@ -27,8 +28,10 @@ curl 'http://localhost:8080/api/v1/products'
 "_id": "538b8b562b0cd04a36b46157",
 "__v": 0
 }]
+```
 ### Adding a Tomato
 curl -X POST -H "Content-Type: application/json" -d '{"name": "Tomato", "count": 1 }' 'http://localhost:8080/api/v1/products'
+```
 {
   "product": {
     "__v": 0,
@@ -37,8 +40,11 @@ curl -X POST -H "Content-Type: application/json" -d '{"name": "Tomato", "count":
     "count": 1,
     "_id": "538b9855d81ae7a336dfc613"
   }
+```
 ### Getting a particular Product
+
 curl 'http://localhost:8080/api/v1/products/538b8b562b0cd04a36b46157'
+```
 {
   "products": [
     {
@@ -50,6 +56,6 @@ curl 'http://localhost:8080/api/v1/products/538b8b562b0cd04a36b46157'
     }
   ]
 }
-
+```
 - N.B. Adding user association now
 
