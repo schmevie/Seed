@@ -192,6 +192,12 @@ body, html {
 	font-size: 1.2em;
 }
 
+.bold-header {
+	text-transform: uppercase;
+}
+
+
+
 #sg-container {
 	position: relative;
 	width: 80%;
@@ -202,6 +208,7 @@ body, html {
 #sg-image-container {
 	display: inline-block;
 	width: 49.5%;
+	margin: 35px 0;
 }
 
 #sg-pic {
@@ -223,6 +230,7 @@ body, html {
 	font-weight: 700;
 	border-bottom-right-radius: 2px;
 	border-bottom-left-radius: 2px;
+	text-transform: uppercase;
 }
 
 #sg-image-title b {
@@ -255,7 +263,9 @@ body, html {
 	display: inline-block;
 	text-align: center;
 	font-weight: 700;
+	margin-top: 60px;
 	width: 49.5%;
+	text-transform: uppercase;
 }
 
 #sg-text b {
