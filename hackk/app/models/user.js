@@ -10,6 +10,7 @@ var userSchema = mongoose.Schema({
         email        : String,
         password     : String,
     },
+
     facebook         : {
         id           : String,
         token        : String,
@@ -28,10 +29,17 @@ var userSchema = mongoose.Schema({
         email        : String,
         name         : String
     },
+
     products         : [
 	{url: String}
     ]
 
+    fruit           : [{
+        name : String,
+        color : String,
+        m1 : Number,
+        density: Number
+    }]
 });
 
 // methods ======================

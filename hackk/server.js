@@ -17,7 +17,12 @@ mongoose.connect(configDB.url); // connect to our database
 require('./config/passport')(passport); // pass passport for configuration
 
 app.configure(function() {
+	console.log(__dirname + '../../Seed-UI/assets');
+	app.use('/css',express.static(__dirname + '/css'));
+	app.use('/js',express.static(__dirname + '../../Seed-UI/js'));
 
+	app.use('/assets',express.static(__dirname + '../../Seed-UI/assets'));
+	// app.use('/static',express.static('./css/'));
 	// set up our express application
 	app.use(express.logger('dev')); // log every request to the console
 	app.use(express.cookieParser()); // read cookies (needed for auth)
@@ -30,6 +35,7 @@ app.configure(function() {
 	app.use(passport.initialize());
 	app.use(passport.session()); // persistent login sessions
 	app.use(flash()); // use connect-flash for flash messages stored in session
+
 
 });
 

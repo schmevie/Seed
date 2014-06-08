@@ -1,0 +1,87 @@
+#navbar {
+	position: fixed !important;
+	top: 0 !important;
+}
+#background{
+	background-color: white;
+	height: 100%;
+	width: 100%;
+}
+
+#content {
+	margin-top: 5em;
+	display: inline-block;
+}
+
+#message {
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+#contact-box {
+	width: 25%;
+	height: 50%;
+	border: 5px solid black;
+	margin-left: 50px;
+	display: inline-block;
+	margin-top: 7em;
+}
+
+#box-margin {
+	margin-top: 6em;
+	font-size: 1.2em;
+}
+.fact-section2 {
+	width: 45%;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 2px;
+	max-width: 25em;
+}
+
+.fact-section2 h3 {
+	font-size: 1.4em;
+	color: white;
+	font-style: normal;
+	font-weight: 100;
+}
+
+.fact-section2 h4 {
+	font-size: 2.5em;
+	color: #FFD700;
+	margin: 0 auto;
+}
+
+#title1 {
+	font-size: 1.5em;
+	margin-left: 5%;
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 8%;
+}
+#title1s {
+	font-size: 1.2em;
+	font-weight: 300;
+	margin-top: 3%;
+	display: inline-block;
+	margin-left: 3%;
+}
+#title1last {
+	font-size: 1.5em;
+	margin-left: 5%;
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 8%;
+	padding-bottom: 5%;
+}
+.fact-header-container2 {
+	background: #210552;
+	padding: 0.5em;
+	text-align: left;
+}
+
+
+
+
+
+
