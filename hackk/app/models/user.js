@@ -32,8 +32,7 @@ var userSchema = mongoose.Schema({
 
     products         : [
 	{url: String}
-    ]
-
+    ],
     fruit           : [{
         name : String,
         color : String,
