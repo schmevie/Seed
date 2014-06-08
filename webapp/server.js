@@ -17,11 +17,11 @@ mongoose.connect(configDB.url); // connect to our database
 require('./config/passport')(passport); // pass passport for configuration
 
 app.configure(function() {
-	console.log(__dirname + '../../Seed-UI/assets');
+	console.log(__dirname + '/static/assets');
 	app.use('/css',express.static(__dirname + '/css'));
-	app.use('/js',express.static(__dirname + '../../Seed-UI/js'));
+	app.use('/js',express.static(__dirname + '/static/js'));
 
-	app.use('/assets',express.static(__dirname + '../../Seed-UI/assets'));
+	app.use('/assets',express.static(__dirname + '/static/assets'));
 	// app.use('/static',express.static('./css/'));
 	// set up our express application
 	app.use(express.logger('dev')); // log every request to the console

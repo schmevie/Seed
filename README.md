@@ -1,17 +1,18 @@
-Seed
-====
+# Seed Repository
+## Contents
+### Web application
+- See webapp folder
+- Read [the webapp readme][webapp/README.md]
+### Embedded apps (phone texting, intel galileo)
+- See twilio-php-latest folder
+## Setup
 
-Seed Repository
------
-
-Setup
------
 1. Make a development directory `mkdir 'whateveryouwanttonameit'`
 2. `cd` into your development directory 
 3. Clone the repo: `git clone https://github.com/schmevie/Seed`
 
-Branching
----------
+## Branching
+
 1. First switch to the `master` branch: `git checkout master`
 2. Get the latest version: `git pull`
 3. Checkout a new branch: `git checkout -b <your-initials-here>/<feature-name-here>`
@@ -23,7 +24,5 @@ Branching
 7. Wait for comments. Revise as necessary, `git push`ing the branch so that your updates are visible.
 8. Once someone says it's good, click "Merge pull request"
 
-
-Work tracking
---------------
+## Work tracking
 Check out the public Trello board @ https://trello.com/b/v1Nm9NSs/berkeley-hackathon
